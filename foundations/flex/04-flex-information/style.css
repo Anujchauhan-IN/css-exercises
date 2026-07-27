@@ -28,4 +28,15 @@ img {
 
 .information {
     display: flex;
+    align-items: space-between;
+    justify-content: center;
+    height: 200px;
+    gap: 52px;
+}
+
+.plant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
 }
