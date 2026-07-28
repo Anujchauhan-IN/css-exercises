@@ -129,3 +129,54 @@ a {
     color: #555;
     font-size: 14px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+
+    padding: 200px 150px;
+    background-color: lightgray;
+    justify-self: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.thor {
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+.call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 1000px;
+    height: 120px;
+    margin: 100px;
+    align-self: center;
+    border-radius: 20px;
+    background-color: #3b82f6;
+    color: white;
+}
+
+.call-txt h3 {
+    margin-bottom: 10px;
+}
+
+.call button {
+    padding: 5px 14px;
+    border: 1px solid white;
+    color: white;
+    background-color: #3b82f6;
+}
+
+footer {
+    justify-self: flex-end;
+    text-align: center;
+    margin-top: auto;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
